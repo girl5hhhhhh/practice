@@ -14,9 +14,10 @@
     <name>practice</name>
     <description>practice</description>
     <properties>
-        <java.version>17</java.version>
+        <java.version>1.8</java.version>
     </properties>
     <dependencies>
+        <!--基础依赖 开始-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -42,6 +43,7 @@
             <artifactId>guava</artifactId>
             <version>21.0</version>
         </dependency>
+        <!--基础依赖 结束-->
     </dependencies>
 
     <build>
