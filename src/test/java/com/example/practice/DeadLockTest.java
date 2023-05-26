@@ -1,7 +1,7 @@
 package com.example.practice;
 
 /**
- * @description: ËÀËø¡¢½»Ìæ´òÓ¡
+ * @description: ËÀËø
  * @author: chunyan.li
  * @time: 2023/5/26 14:55
  */
