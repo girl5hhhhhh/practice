@@ -6,9 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -106,4 +104,56 @@ class PracticeApplicationTests {
         System.out.println(lost);
     }
 
+    /*比较版本号输入 1.0.2.1 和 1.2.3.1.0
+      前者大 返回1 相等返回0 后者大返回-1*/
+    @Test
+    void test6(){
+        String version1 = "1.0.2.1.1";
+        String version2 = "1.0.2.1";
+        int flag = compareVersion(version1,version2);
+        System.out.println(flag);
+    }
+
+    /*
+    * UnsupportedOperationException
+    * https://blog.csdn.net/lp840312696/article/details/120827780
+    * */
+    private int compareVersion(String version1, String version2) {
+        List<String> split1 = new ArrayList<>(Arrays.asList(version1.split("\\.")));
+        List<String> split2 = new ArrayList<>(Arrays.asList(version2.split("\\.")));
+
+        //给length小的补0
+        int count = Math.abs(split1.size() - split2.size());
+        int size1 = split1.size();
+        int size2 = split2.size();
+        if(size1 < size2){
+            for (int i = 0; i < count; i++) {
+                split1.add("0");
+            }
+        }else {
+            for (int i = 0; i < count; i++) {
+                split2.add("0");
+            }
+        }
+
+        int flag = 0;
+        for (int i = 0; i < split1.size(); i++) {
+            if (Integer.parseInt(split1.get(i)) > Integer.parseInt(split2.get(i))){
+                flag = 1;
+                break;
+            }else if(Integer.parseInt(split1.get(i)) < Integer.parseInt(split2.get(i))){
+                flag = -1;
+                break;
+            }else {
+                flag = 0;
+                continue;
+            }
+        }
+        return flag;
+    }
+
+    @Test
+    void test7(){
+
+    }
 }
