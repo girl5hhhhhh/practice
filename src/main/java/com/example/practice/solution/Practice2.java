@@ -1,4 +1,4 @@
-package com.example.practice.pojo;
+package com.example.practice.solution;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -8,7 +8,7 @@ import java.util.Collections;
  * @author: chunyan.li
  * @time: 2023/3/7 12:16
  */
-public class Pratice3 {
+public class Practice2 {
     public static void main(String[] args) {
 
 //        int[] A = {1, 3, 6, 4, 1, 2};

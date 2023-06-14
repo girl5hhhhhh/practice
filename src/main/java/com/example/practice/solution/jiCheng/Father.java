@@ -1,6 +1,4 @@
-package com.example.practice.pojo.jiCheng;
-
-import com.example.practice.pojo.jiCheng.Son;
+package com.example.practice.solution.jiCheng;
 
 /**
  * @description:

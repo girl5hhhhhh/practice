@@ -1,7 +1,7 @@
 package com.example.practice.serviceIml;
 
 import com.example.practice.mapper.GoodsMapper;
-import com.example.practice.pojo.shuJuKu.Goods;
+import com.example.practice.pojo.Goods;
 import com.example.practice.service.GoodService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

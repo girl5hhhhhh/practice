@@ -1,4 +1,4 @@
-package com.example.practice.pojo;
+package com.example.practice.solution;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
  * @author: chunyan.li
  * @time: 2023/3/3 11:11
  */
-public class Practice {
+public class ThreadPool {
     /**
      * 创建线程池
      * */

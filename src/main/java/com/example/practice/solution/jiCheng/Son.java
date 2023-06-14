@@ -1,4 +1,4 @@
-package com.example.practice.pojo.jiCheng;
+package com.example.practice.solution.jiCheng;
 
 /**
  * @description:

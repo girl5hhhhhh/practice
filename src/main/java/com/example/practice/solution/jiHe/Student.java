@@ -1,4 +1,4 @@
-package com.example.practice.pojo.jiHe;
+package com.example.practice.solution.jiHe;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.example.practice;
+package com.example.practice.solution;
 
 /**
  * @description: 交替打印：两个线程争这同一把锁

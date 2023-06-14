@@ -6,12 +6,12 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * @program: practice
+ * @program: LeetCode
  * @description:
  * @author: YouName
  * @create: 2023-04-20 15:50
  **/
-public class Solution1 {
+public class LeetCode {
     public static void main(String[] args) {
         /*1 删除排序数组中的重复项*/
         //输入数组，期望答案{0,1,2,3,4}

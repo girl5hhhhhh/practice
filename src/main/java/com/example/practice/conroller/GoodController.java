@@ -1,6 +1,6 @@
 package com.example.practice.conroller;
 
-import com.example.practice.pojo.shuJuKu.Goods;
+import com.example.practice.pojo.Goods;
 import com.example.practice.service.GoodService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -3,7 +3,7 @@
 <mapper namespace="com.example.practice.mapper.GoodsMapper">
 
     <!--获取商品列表-->
-    <select id="findGoodsVo" resultType="com.example.practice.pojo.shuJuKu.Goods">
+    <select id="findGoodsVo" resultType="com.example.practice.pojo.Goods">
         SELECT
             g.id,
             g.goods_name,

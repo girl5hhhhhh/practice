@@ -1,7 +1,7 @@
 package com.example.practice.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.example.practice.pojo.shuJuKu.Goods;
+import com.example.practice.pojo.Goods;
 
 import java.util.List;
 

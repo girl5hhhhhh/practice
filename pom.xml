@@ -48,6 +48,10 @@
             <version>21.0</version>
         </dependency>
         <!--基础依赖 结束-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

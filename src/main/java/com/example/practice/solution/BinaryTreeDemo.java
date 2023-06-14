@@ -1,4 +1,4 @@
-package com.example.practice.pojo;
+package com.example.practice.solution;
 
 /**
  * @description: 前、中、后序遍历代码实现

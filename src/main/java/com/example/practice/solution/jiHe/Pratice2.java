@@ -1,6 +1,5 @@
-package com.example.practice.pojo.jiHe;
+package com.example.practice.solution.jiHe;
 
-import com.example.practice.pojo.jiHe.Student;
 import com.google.common.collect.Lists;
 
 import java.util.Arrays;
