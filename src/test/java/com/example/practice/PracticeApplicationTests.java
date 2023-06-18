@@ -6,7 +6,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.util.*;
+import java.time.LocalDateTime;
+import java.util.List;
 
 @SpringBootTest
 class PracticeApplicationTests {
@@ -18,5 +19,10 @@ class PracticeApplicationTests {
     void contextLoads() {
         List<Goods> list = goodsMapper.findGoodsVo();
         System.out.println(list);
+    }
+
+    @Test
+    void test1() {
+        System.out.println(LocalDateTime.now());
     }
 }

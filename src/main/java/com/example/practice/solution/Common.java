@@ -8,12 +8,13 @@ package com.example.practice.solution;
 public class Common {
     public static void main(String[] args) {
         //test1();
-        test2();
+        //test2();
+        test3();
     }
 
-    /*
+    /**
      * 1+2+3+...+100 的和
-     * */
+     */
     private static void test1() {
         int sum = 0;
         for (int i = 0; i <= 100; i++) {
@@ -35,5 +36,12 @@ public class Common {
             }
             System.out.print("\n");
         }
+    }
+
+    /**
+     * 100层楼和两个玻璃球
+    */
+    private static void test3() {
+        
     }
 }
